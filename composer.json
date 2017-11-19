@@ -1,0 +1,19 @@
+{
+  "name": "drupal/dido",
+  "description": "Data In Data Out module for Drupal that Provides an interface for IOT devices, making the data available to subscribers.",
+  "type": "drupal-module",
+  "homepage": "https://drupal.org/project/dido",
+  "authors": [
+    {
+      "name": "Peter Clarke (theapi)",
+      "homepage": "https://www.drupal.org/u/theapi",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://drupal.org/project/issues/dido",
+    "source": "https://cgit.drupalcode.org/dido"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev"
+}

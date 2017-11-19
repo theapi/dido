@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function dido_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.dido':
+      return t('
+        <h2>Data In Data Out</h2>
+        <p>Provides an interface for IOT & SDR devices, 
+        making the data available to subscribers.</p>
+      ');
+  }
+}
