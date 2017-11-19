@@ -26,6 +26,8 @@ interface PayloadInterface {
    * @param $key
    *
    * @return string
+   *
+   * @throws \InvalidArgumentException
    */
   public function getValue($key);
 
